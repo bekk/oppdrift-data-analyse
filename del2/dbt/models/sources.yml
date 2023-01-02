@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    project: oppdrift-369209
+    dataset: raw
+    tables:
+      - name: reisetider
