@@ -69,22 +69,29 @@ oppdrift_dbt:
 ```
 
 ## dbt på codespaces
-Åpne Github, trykk grønn Code-knapp, velg Codespaces og Create new.
+Github codespaces gir deg en virtuell maskin der du kan utvikle i VS code og kjøre kode, f.eks. Python og dbt.
 
-pip install dbt-bigquery
-./create_profiles.py <brukernavn>
+### Lage codespace
+For å lage et codespace, åpne repoet `oppdrift-data-analyse` på Github, trykk grønn Code-knapp, velg Codespaces og Create new.
+Åpne terminalen i ditt codespace og kjør følgende kommandoer:
 
-./install_gcloud.sh
+```bash
+pip install dbt-bigquery # Installerer dbt
+./create_profiles.py <brukernavn> # Oppretter ~/.dbt/profiles.yml for dbt
+./install_gcloud.sh # Installerer verktøy for å autentisere mot Google Cloud
+```
 
-~/google-cloud-sdk/bin/gcloud init
-Si ja til innlogging
-Åpne URL-en, logg inn, kopier koden nederst
-Velg oppdrift som prosjekt
+For å koble deg til Google Cloud:
+`~/google-cloud-sdk/bin/gcloud init`
+- Si ja til innlogging
+- Åpne URL-en, logg inn med din Bekk-bruker, kopier koden nederst tilbake til terminalen.
+- Velg oppdrift som prosjekt
 
-~/google-cloud-sdk/bin/gcloud auth login --update-adc
-Åpne URL-en, logg inn, kopier koden nederst
+For å få token som dbt kan bruke:
+`~/google-cloud-sdk/bin/gcloud auth login --update-adc`
+Åpne URL-en, logg inn med din Bekk-bruker, kopier koden nederst tilbake til terminalen.
 
-
+Da er du klar til å begynne med utvikling av dbt-modeller!
 
 # Oppgaver
 
