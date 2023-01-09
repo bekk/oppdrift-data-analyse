@@ -67,3 +67,27 @@ oppdrift_dbt:
       type: bigquery
   target: dev
 ```
+
+## dbt på codespaces
+Åpne Github, trykk grønn Code-knapp, velg Codespaces og Create new.
+
+pip install dbt-bigquery
+./create_profiles.py <brukernavn>
+
+./install_gcloud.sh
+
+~/google-cloud-sdk/bin/gcloud init
+Si ja til innlogging
+Åpne URL-en, logg inn, kopier koden nederst
+Velg oppdrift som prosjekt
+
+~/google-cloud-sdk/bin/gcloud auth login --update-adc
+Åpne URL-en, logg inn, kopier koden nederst
+
+
+
+# Oppgaver
+
+## Deduplisering
+
+## 
