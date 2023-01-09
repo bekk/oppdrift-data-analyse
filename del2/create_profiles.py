@@ -22,7 +22,7 @@ oppdrift_dbt:
   target: dev
 """
 
-filename = os.path.expanduser("~/.dbt22/profiles.yml")
+filename = os.path.expanduser("~/.dbt/profiles.yml")
 os.makedirs(os.path.dirname(filename), exist_ok=True)
 with open(filename, "w+") as f:
   f.write(text)
