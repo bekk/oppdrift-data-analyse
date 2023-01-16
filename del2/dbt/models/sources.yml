@@ -1,8 +1,9 @@
 version: 2
 
 sources:
-  - name: raw
+  - name: oppgaver
     project: oppdrift-369209
-    dataset: raw
+    dataset: oppgaver
     tables:
       - name: reisetider
+      - name: strekninger_renset

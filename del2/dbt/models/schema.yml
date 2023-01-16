@@ -2,5 +2,5 @@
 version: 2
 
 models:
-  - name: reisetider_dedup
-    description: "Dedupliserte reisetider"
+  - name: reisetider_renset
+    description: "Rensede reisetider"
