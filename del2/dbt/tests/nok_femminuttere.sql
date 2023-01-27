@@ -1,0 +1,1 @@
+SELECT * FROM {{ ref('reisetider_time') }} WHERE antallFemMinutt < 10

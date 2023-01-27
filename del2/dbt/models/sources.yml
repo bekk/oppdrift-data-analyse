@@ -6,3 +6,6 @@ sources:
     dataset: oppgaver
     tables:
       - name: reisetider
+      - name: strekninger_renset
+      - name: trafikkregistreringspunkt
+      - name: timetrafikk
