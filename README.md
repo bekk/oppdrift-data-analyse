@@ -1,6 +1,6 @@
-# Oppdrift - Data og analyse
+# 🚀 Oppdrift - Data og analyse
 
-Repo for workshops og presentasjoner for Oppdrift 🚀
+Repo for workshops og presentasjoner for Oppdrift.
 
 ### Lenker til Colabs
 
