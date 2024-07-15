@@ -6,3 +6,4 @@ sources:
     dataset: oppgaver
     tables:
       - name: reisetider
+      - name: reisetider_renset
