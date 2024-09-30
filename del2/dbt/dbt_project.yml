@@ -29,4 +29,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   oppdrift_dbt:
-    +materialized: table
+    1_bronze:
+      +schema: 1_bronze
+    2_silver:
+      +schema: 2_silver
+    3_gold:
+      +schema: 3_gold
