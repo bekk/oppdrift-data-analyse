@@ -56,7 +56,7 @@ Lag `~/.dbt/profiles.yml` med følgende innhold:
 oppdrift_dbt:
   outputs:
     dev:
-      dataset: dbt_<brukernavn>
+      dataset: dbt
       fixed_retries: 1
       location: EU
       method: oauth

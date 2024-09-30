@@ -10,7 +10,7 @@ text = f"""
 oppdrift_dbt:
   outputs:
     dev:
-      dataset: dbt_{brukernavn}
+      dataset: dbt # default/fallback dataset for transformations
       fixed_retries: 1
       location: EU
       method: oauth
